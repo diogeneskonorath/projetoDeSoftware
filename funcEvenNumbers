@@ -1,0 +1,13 @@
+#função de uma aplicação multitrading geradora de números randomicos
+public void run(){
+   while (true) {
+      int randomicNumber = random.nextInt() * 2;
+      try {
+         Thread.sleep(SLEEP);
+	 System.out.println(randomicNumber);
+      }catch (InterruptedException e) {
+         e.printStackTrace();
+      }
+   }
+}
+
