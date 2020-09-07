@@ -1,0 +1,11 @@
+public void generateRandomEvenNumber() throws InterruptedException {
+       Random random =  new Random();
+       int number = random.nextInt();
+       if(number %2 == 0){
+           System.out.println(number);
+       }else{
+           System.out.println(number+=1);
+       }
+       sleep(tempoDeEspera);
+}
+
